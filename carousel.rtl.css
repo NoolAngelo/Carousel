@@ -69,3 +69,12 @@ body {
     margin-top: 7rem;
   }
 }
+.carousel-indicators button {
+  background-color: black; /* Set the background color to black */
+  border-color: black; /* Set the border color to black */
+}
+
+.carousel-indicators .active {
+  background-color: darkgrey; /* Set the background color of the active button to dark grey */
+  border-color: darkgrey; /* Set the border color of the active button to dark grey */
+}

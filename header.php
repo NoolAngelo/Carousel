@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
+<nav class="navbar navbar-expand-md navbar-white fixed-top bg-white">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="img/TITECH.png" alt="TITECH Logo" width="30" height="30" class="d-inline-block align-text-top">
