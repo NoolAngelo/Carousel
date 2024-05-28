@@ -124,31 +124,20 @@
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
-
 
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="carousel-image" style="background-image: url('img/halo_main.png');"></div>
           <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
           </svg>
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Matte Black</h1>
-              <p class="opacity-100">Fuck Fin and Jake doing crime again!</p>
-            </div>
-          </div>
         </div>
 
-
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
+          <img src="img/cover1.png" alt="HALO RING">
           <div class="container">
             <div class="carousel-caption">
-              <div class="carousel-image" style="background-image: url('img/cover1.png');"></div>
               <h1>HALO RING.</h1>
               <p>Some representative placeholder content for the second slide of the carousel.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
@@ -156,10 +145,8 @@
           </div>
         </div>
 
-
         <div class="carousel-item">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
           </svg>
           <div class="container">
             <div class="carousel-caption text-end">
@@ -170,8 +157,20 @@
           </div>
         </div>
 
-
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>BOMBACLAT.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -181,6 +180,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
 
 
     <!-- Marketing messaging and featurettes
